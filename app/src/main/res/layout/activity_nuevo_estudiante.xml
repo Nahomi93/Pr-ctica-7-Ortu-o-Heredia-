@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#EDE9E9"
+    tools:context=".NuevoEstudiante">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Regitro Estudiante"
+        android:textColor="#0C0C22"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtNombreEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#0C0C22"
+        android:textColorHint="#0C0C22"
+        android:backgroundTint="#ECAB0F"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/txtApellidoEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#0C0C22"
+        android:textColorHint="#0C0C22"
+        android:backgroundTint="#ECAB0F"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/txtFechaNacimientoEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Nacimiento"
+        android:fontFamily="@font/poppins_medium"
+        android:textColorHint="#0C0C22"
+        android:backgroundTint="#ECAB0F"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/txtSemestreEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semestre"
+        android:fontFamily="@font/poppins_medium"
+        android:textColorHint="#0C0C22"
+        android:backgroundTint="#ECAB0F"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/txtIdCiudadEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID de la Ciudad"
+        android:fontFamily="@font/poppins_medium"
+        android:textColorHint="#0C0C22"
+        android:backgroundTint="#ECAB0F"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/txtDireccionEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección"
+        android:fontFamily="@font/poppins_medium"
+        android:textColorHint="#0C0C22"
+        android:backgroundTint="#ECAB0F"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#0c0c22"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Enviar"
+        android:textColor="#ecab0f"
+        android:textColorLink="#FDDD0C"
+        app:icon="@android:drawable/ic_menu_send"
+        app:iconGravity="textStart" />
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#EDE9E9"
+    tools:context=".NuevoDocente">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Regitro Docente"
+        android:textColor="#0C0C22"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtNombreDocente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ECAB0F"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Nombre"
+        android:textColor="#0C0C22"
+        android:textColorHint="#0C0C22" />
+
+    <EditText
+        android:id="@+id/txtApellidoDocente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#ECAB0F"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Apellido"
+        android:textColor="#0C0C22"
+        android:textColorHint="#0C0C22" />
+
+    <EditText
+        android:id="@+id/txtFechaNacimientoDocente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#ECAB0F"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Fecha de Nacimiento"
+        android:textColorHint="#0C0C22" />
+
+    <EditText
+        android:id="@+id/txtAntiguedadDocente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#ECAB0F"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Antigüedad"
+        android:textColorHint="#0C0C22" />
+
+    <EditText
+        android:id="@+id/txtIdCiudadDocente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#ECAB0F"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="ID de la Ciudad"
+        android:textColorHint="#0C0C22" />
+
+    <EditText
+        android:id="@+id/txtDireccionDocente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#ECAB0F"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Dirección"
+        android:textColorHint="#0C0C22" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#0c0c22"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Enviar"
+        android:textColor="#ecab0f"
+        android:textColorLink="#FDDD0C"
+        app:icon="@android:drawable/ic_menu_send"
+        app:iconGravity="textStart" />
+
+</LinearLayout>

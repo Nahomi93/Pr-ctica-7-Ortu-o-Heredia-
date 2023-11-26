@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE9E9"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btnNuevoEstudiante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#0c0c22"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Nuevo Estudiante"
+            android:textColor="#ecab0f"
+            android:textColorLink="#FDDD0C"
+            app:icon="@android:drawable/ic_menu_edit"
+            app:iconGravity="textStart" />
+
+        <Button
+            android:id="@+id/btnNuevoDocente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#0c0c22"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Nuevo Docente"
+            android:textColor="#ecab0f"
+            android:textColorLink="#FDDD0C"
+            app:icon="@android:drawable/ic_menu_edit"
+            app:iconGravity="textStart" />
+
+        <Button
+            android:id="@+id/btnMostrarEstudiante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#0c0c22"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Mostrar Estudiante"
+            android:textColor="#ecab0f"
+            android:textColorLink="#FDDD0C"
+            app:icon="@android:drawable/ic_menu_view"
+            app:iconGravity="textStart" />
+
+        <Button
+            android:id="@+id/btnMostrarDocente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#0c0c22"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Mostrar Docentes"
+            android:textColor="#ecab0f"
+            android:textColorLink="#FDDD0C"
+            app:icon="@android:drawable/ic_menu_view"
+            app:iconGravity="textStart" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+            android:text="Listado"
+            android:textColor="#0C0C22"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/lstListado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#DCDCDC" />
+</LinearLayout>
